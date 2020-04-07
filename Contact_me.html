@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <!--stle section-->
+    <style>
+        #submit{
+            color: brown;
+            border: 5px solid black;
+            font-size: 18px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+    </style>
+    <!--linl section-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/icon">
+</head>
+<body>
+    <!--This is aform that sends user inputs to my mail-->
+    <form action="mailto:adedokuntobiloba100@gmail.com" method="post">
+       <center> <h3>Contact Me</h3>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name"><br>
+        <label for="phone">Phone No:</label>
+        <input type="tel" name="phone" ><br>
+        <label for="address">Adress:</label>
+        <input type="textarea" name="address"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="example@email.com"><br>
+        <label for="color">Favorite Color:</label>
+        <input type="color" name="color" ><br>
+        <input type="submit" value="submit" id="submit"></center>
+    </form>
+    
+</body>
+</html>

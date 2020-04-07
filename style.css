@@ -1,0 +1,12 @@
+body{background-color:  rgb(208, 236, 208);}
+        h1, h3{color: blue;}
+hr{height: 0px;
+           border-style: none;
+           border-top-style: dotted;
+           border-width: 5px;
+           border-color:grey;
+           width:20%;
+           background-color:rgb(208, 236, 208);
+        
+        }
+ img{border-radius: 100px;}
